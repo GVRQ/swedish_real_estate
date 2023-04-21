@@ -12,15 +12,15 @@ file_path_tabell_riket = 'data/Svensk_Mäklarstatistik_Tabell_Riket.xlsx'
 file_path_utbud = 'data/utbud_lägenhet_sverige_23_04_07.xls'
 
 
-df_bostadsratter_48m = pd.read_excel(file_path_bostadsratter, sheet_name='48 mån')
-df_bostadsratter_ar = pd.read_excel(file_path_bostadsratter, sheet_name='Årshistorik')
+df_bostadsratter_48m = pd.read_excel(file_path_bostadsratter, sheet_name='48 man')
+df_bostadsratter_ar = pd.read_excel(file_path_bostadsratter, sheet_name='Arshistorik')
 df_bostadsratter_prisrum = pd.read_excel(file_path_bostadsratter, sheet_name='Pris | Rum')
 
-df_tabell_3m = pd.read_excel(file_path_tabell, sheet_name='3 månader')
-df_tabell_12m = pd.read_excel(file_path_tabell, sheet_name='12 månader')
+df_tabell_3m = pd.read_excel(file_path_tabell, sheet_name='3 manader')
+df_tabell_12m = pd.read_excel(file_path_tabell, sheet_name='12 manader')
 df_tabell_riket = pd.read_excel(file_path_tabell_riket, sheet_name='Statistik')
 
-df_tabell_utbud = pd.read_excel(file_path_utbud, sheet_name='Utbud av bostäder')
+df_tabell_utbud = pd.read_excel(file_path_utbud, sheet_name='Utbud av bostader')
 
 # Create Streamlit app
 st.set_page_config(page_title="Swedish Real Estate Market Dashboard", page_icon=":house:", layout="wide")
