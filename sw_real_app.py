@@ -6,10 +6,10 @@ from PIL import Image
 
 
 # Read data from xlsx files
-file_path_bostadsratter = 'data/Svensk_Mäklarstatistik_Bostadsrätter_Riket_april2023.xlsx'
-file_path_tabell = 'data/Svensk_Mäklarstatistik_Tabell_Riket_april2023.xlsx'
-file_path_tabell_riket = 'data/Svensk_Mäklarstatistik_Tabell_Riket.xlsx'
-file_path_utbud = 'data/utbud_lägenhet_sverige_23_04_07.xls'
+file_path_bostadsratter = 'data/Bostadsrätter_Riket_april2023.xlsx'
+file_path_tabell = 'data/Tabell_Riket_april2023.xlsx'
+file_path_tabell_riket = 'data/Tabell_Riket.xlsx'
+file_path_utbud = 'data/utbud_lagenhet_sverige_23_04_07.xls'
 
 
 df_bostadsratter_48m = pd.read_excel(file_path_bostadsratter, sheet_name='48 man')
