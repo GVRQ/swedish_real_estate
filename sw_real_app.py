@@ -6,7 +6,7 @@ from PIL import Image
 
 
 # Read data from xlsx files
-file_path_bostadsratter = 'data/Bostadsrätter_Riket_april2023.xlsx'
+file_path_bostadsratter = 'data/Bostadsratter_Riket_april2023.xlsx'
 file_path_tabell = 'data/Tabell_Riket_april2023.xlsx'
 file_path_tabell_riket = 'data/Tabell_Riket.xlsx'
 file_path_utbud = 'data/utbud_lagenhet_sverige_23_04_07.xls'
